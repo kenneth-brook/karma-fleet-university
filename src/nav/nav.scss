@@ -1,0 +1,30 @@
+.navWrap {
+  width: 100%;
+  background-color: black;
+  border: 1px solid black;
+  padding: 20px 0;
+
+  nav {
+    ul {
+      display: flex;
+
+      li {
+        .link {
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+          font-size: 1.8rem;
+          margin-left: 35px;
+        }
+
+        .active {
+          background: white;
+          padding: 30px 25px 40px 25px;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          color: black;
+        }
+      }
+    }
+  }
+}
