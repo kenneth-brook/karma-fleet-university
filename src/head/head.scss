@@ -17,4 +17,19 @@
     font-family: "Black Ops One", cursive;
     text-shadow: 4px 4px 8px #000000;
   }
+
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+}
+
+.logo {
+  height: 150px;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
