@@ -60,7 +60,7 @@ function Nav() {
 
       <div>
         <Route exact path="/" component={Home} />
-        <Route path="/Policies" component={Policies} />
+        <Route exact path="/Policies" component={Policies} />
         <Route path="/Mission" component={Mission} />
         <Route path="/Staff" component={Staff} />
         <Route path="/Basics" component={Basics} />
