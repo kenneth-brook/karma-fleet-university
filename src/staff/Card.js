@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useSpring, animated as a } from "react-spring";
-import "./styles.css";
 
 function Card() {
   const [flipped, set] = useState(false);
@@ -14,14 +13,14 @@ function Card() {
       <a.div
         class="c back"
         style={{ opacity: opacity.interpolate((o) => 1 - o), transform }}
-      />
+      ></a.div>
       <a.div
         class="c front"
         style={{
           opacity,
           transform: transform.interpolate((t) => `${t} rotateY(180deg)`),
         }}
-      />
+      ></a.div>
     </div>
   );
 }
