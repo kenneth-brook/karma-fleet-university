@@ -1,9 +1,9 @@
 .c {
   position: absolute;
-  max-width: 500px;
-  max-height: 500px;
-  width: 50ch;
-  height: 50ch;
+  width: 350px;
+  height: 600px;
+  border: 15px solid black;
+  border-radius: 15px;
   cursor: pointer;
   will-change: transform, opacity;
   margin-left: 20px;
@@ -15,7 +15,7 @@
 }
 
 .back {
-  background-image: url(../images/broodin.png);
+  background-color: dodgerblue;
 }
 
 .front {
