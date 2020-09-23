@@ -6,12 +6,21 @@
   border-radius: 15px;
   cursor: pointer;
   will-change: transform, opacity;
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .imageWrap {
+    width: 300px;
+  }
 }
 
 .front,
 .back {
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .back {
@@ -20,4 +29,8 @@
 
 .front {
   background-image: url(../images/broodinback.png);
+}
+
+.card {
+  width: 365px;
 }

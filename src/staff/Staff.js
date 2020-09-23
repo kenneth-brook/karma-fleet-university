@@ -1,12 +1,22 @@
 import React from "react";
 import Card from "./Card";
+import staffData from "./staffData";
 
 function Staff() {
   return (
-    <div className="home">
+    <div className="staff">
       <h1>Staff</h1>
       <div className="cardWrap">
-        <Card />
+        {staffData.map((staff) => {
+          return (
+            <Card
+              key={staff.id}
+              name={staff.name}
+              image={staff.image}
+              role={staff.role}
+            />
+          );
+        })}
       </div>
     </div>
   );

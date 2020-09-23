@@ -1,3 +1,18 @@
-.cardWrap {
-  margin-bottom: 250px;
+.staff {
+  min-height: 800px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 25px;
+  }
+
+  .cardWrap {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

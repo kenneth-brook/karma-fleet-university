@@ -2,41 +2,49 @@ const staffData = [
   {
     id: 1,
     name: "Broodin",
-    img: "../images/broodin.jpg",
+    image: require("../images/broodin.jpg"),
     role: "KFU Dean",
   },
   {
     id: 2,
-    name: "Broodin",
-    img: "../images/broodin.jpg",
-    role: "KFU Dean",
+    name: "Wombat RabidOne",
+    image: require("../images/broodin.jpg"),
+    role: "Assistant Industry Instructor",
+  },
+  {
+    id: 3,
+    name: "Dresdon Lightseeker",
+    image: require("../images/broodin.jpg"),
+    role: "Industry & Mining Instructor",
   },
 ];
 
-const staffCard = document.querySelector(".c .back");
-staffData.forEach((item1) => {
-  back.appendChild(createBack(item1.name, item1.img, item1.role));
-});
+export default staffData;
 
-function createBack(name, img, role) {
-  const cardBack = document.createElement("div");
-  cardBack.classList.add("cardBack");
+// const staffCard = document.querySelector(".c .back");
+// staffData.forEach((item1) => {
+//   back.appendChild(createBack(item1.name, item1.img, item1.role));
+// });
 
-  const staffName = document.createElement("h1");
+// function createBack(name, img, role) {
+//   const cardBack = document.createElement("div");
+//   cardBack.classList.add("cardBack");
 
-  const staffImg = document.createElement("img");
+//   const staffName = document.createElement("h1");
 
-  const staffRole = document.createElement("h2");
+//   const staffImg = document.createElement("img");
 
-  //append stack
-  cardBack.appendChild(staffName);
-  cardBack.appendChild(staffImg);
-  cardBack.appendChild(staffRole);
+//   const staffRole = document.createElement("h2");
 
-  //content
-  staffName.textContent = name;
-  staffImg.src = img;
-  staffRole.textContent = role;
+//   //append stack
+//   cardBack.appendChild(staffName);
+//   cardBack.appendChild(staffImg);
+//   cardBack.appendChild(staffRole);
 
-  return cardBack;
-}
+//   //content
+//   staffName.textContent = name;
+//   staffImg.src = img;
+//   staffRole.textContent = role;
+
+//   return cardBack;
+// }
