@@ -5,7 +5,7 @@ function Card() {
   const [flipped, set] = useState(false);
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
-    transform: `perspective(300px) rotateY(${flipped ? 180 : 0}deg)`,
+    transform: `perspective(400px) rotateY(${flipped ? 180 : 0}deg)`,
     config: { mass: 30, tension: 500, friction: 60 },
   });
   return (
