@@ -2,21 +2,27 @@
   position: absolute;
   width: 350px;
   height: 600px;
-  border: 15px solid black;
+  border: 12px solid black;
   border-radius: 15px;
   cursor: pointer;
   will-change: transform, opacity;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 
   .imageWrap {
     width: 300px;
+    margin-top: 25px;
+
+    img {
+      border-radius: 15px;
+      box-shadow: 4px 4px 12px #bbb;
+    }
   }
 
   h2 {
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }
 
