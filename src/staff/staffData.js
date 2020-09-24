@@ -8,13 +8,13 @@ const staffData = [
   {
     id: 2,
     name: "Wombat RabidOne",
-    image: require("../images/broodin.jpg"),
+    image: require("../images/wombat.jpg"),
     role: "Assistant Industry Instructor",
   },
   {
     id: 3,
     name: "Dresdon Lightseeker",
-    image: require("../images/broodin.jpg"),
+    image: require("../images/dresdon.jpg"),
     role: "Industry & Mining Instructor",
   },
 ];
