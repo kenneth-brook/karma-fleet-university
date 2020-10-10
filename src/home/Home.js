@@ -4,7 +4,7 @@ import Card from "./HomeImage"
 function Home() {
   return (
     <div className="home">
-      <h1>HOME</h1>
+      <h1>Welcome to Karmafleet University</h1>
       <p>General welcome statment and site instructions go here</p>
       <div className="paralaxWrap">
        <Card /> 
