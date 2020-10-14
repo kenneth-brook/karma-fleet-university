@@ -8,7 +8,7 @@ const trans2 = (x, y) => `translate3d(${x / 8 + 10}px,${y / 8 - 40}px,0)`
 const trans3 = (x, y) => `translate3d(${x / 6 - 150}px,${y / 6 - 100}px,0)`
 const trans4 = (x, y) => `translate3d(${x / 3.2}px,${y / 3.2}px,0)`
 
-function Card() {
+function Paralax() {
   const [props, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
   return (
     <div class="container" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
@@ -20,4 +20,4 @@ function Card() {
   )
 }
 
-export default Card;
+export default Paralax;

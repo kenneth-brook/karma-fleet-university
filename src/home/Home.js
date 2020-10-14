@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./HomeImage"
+import Paralax from "./HomeImage"
 
 function Home() {
   return (
@@ -7,7 +7,7 @@ function Home() {
       <h1>Welcome to Karmafleet University</h1>
       <p>General welcome statment and site instructions go here</p>
       <div className="paralaxWrap">
-       <Card /> 
+       <Paralax /> 
       </div> 
     </div>
   );
